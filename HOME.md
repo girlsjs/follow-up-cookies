@@ -18,14 +18,14 @@ Dowiemy się również, jak wygląda anatomia cookiesów oraz jakie istnieją as
 
 ### AGENDA
 
-1. [Narzędzia](./cookies/pages/01-narzedzia/)
-2. [Ciasteczka](/cookies/pages/02-ciasteczka/)
-3. [Third Aspekty prawne](#third-example)
-4. [Anatomia ciastka](#fourth-examplehttpwwwfourthexamplecom)
-5. [HTTP Cookies](#fourth-examplehttpwwwfourthexamplecom)
-6. [Web Storage](#fourth-examplehttpwwwfourthexamplecom)
-7. [Pora na ciastka 🍪](#fourth-examplehttpwwwfourthexamplecom)
+1. [Narzędzia](./pages/01-narzedzia)
+2. [Ciasteczka](./pages/02-ciasteczka)
+3. [Third Aspekty prawne](./_pages/03-aspekty-prawne)
+4. [Anatomia ciastka](./pages/04-anatomia-ciastka)
+5. [HTTP Cookies](./pages/05-HTTP-cookies)
+6. [Web Storage](./_pages/06-web-storage)
+7. [Pora na ciastka 🍪](./pages/12-ciastka))
 
 Gotowe? 
 
-Ruszamy!
+**Ruszamy!** 🚀
