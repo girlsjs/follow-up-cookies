@@ -1,5 +1,5 @@
 ---
-title: 10. Funkcje
+title: "> Zadanie 2"
 layout: post
 ---
 

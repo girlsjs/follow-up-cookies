@@ -1,5 +1,5 @@
 ---
-title: "- Zadanie 3"
+title: "> Zadanie 3"
 layout: post
 ---
 

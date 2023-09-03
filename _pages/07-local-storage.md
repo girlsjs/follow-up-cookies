@@ -1,5 +1,5 @@
 ---
-title: "- LocalStorage"
+title: "> LocalStorage"
 layout: post
 ---
 
