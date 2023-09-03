@@ -18,8 +18,8 @@ Dowiemy się również, jak wygląda anatomia cookiesów oraz jakie istnieją as
 
 ### AGENDA
 
-1. [Narzędzia](#example)
-2. [Ciasteczka](#example2)
+1. [Narzędzia](./cookies/pages/01-narzedzia/)
+2. [Ciasteczka](/cookies/pages/02-ciasteczka/)
 3. [Third Aspekty prawne](#third-example)
 4. [Anatomia ciastka](#fourth-examplehttpwwwfourthexamplecom)
 5. [HTTP Cookies](#fourth-examplehttpwwwfourthexamplecom)
