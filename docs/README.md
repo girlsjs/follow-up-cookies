@@ -1,4 +1,4 @@
-# Wyprawy kosmiczne repozytorium girls.js Poznań 
+# repozytorium girls.js ciastka
 
 
 ### Konfiguracja

@@ -8,8 +8,6 @@ Co będzie potrzebne na dzisiejszych warsztatach?
 
 👉 **Podstawowa wiedza z JavaScript**
 
-![](/cookies/assets/js-logo.png)
-
 oraz na początek wystarczy nam przeglądarka internetowa i edytor tekstu.
 
 ### Przeglądarka
