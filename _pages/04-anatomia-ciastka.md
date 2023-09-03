@@ -42,3 +42,7 @@ Spośród tych atrybutów tym razem najbardziej interesuje nas nie liczba kalori
     - Pozwala na przechowywanie większych ilości danych w obiektach.
 
 ![](/cookies/assets/gif_cookies.gif)
+*Przypomnienie: narzędzia programisty w Chrome włączamy przez F12 (Command+Option+I na macOS)*
+
+
+![](/cookies/assets/cookies-screen.png)
