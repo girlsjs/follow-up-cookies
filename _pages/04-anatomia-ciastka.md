@@ -3,9 +3,7 @@ title: Anatomia ciastka
 layout: post
 ---
 
-Juz wiesz, że pliki cookies to małe fragmenty danych, które strony internetowe zapisują na twoim komputerze. 
-
-Służą one do różnych celów, takich jak zapamiętywanie twoich preferencji czy śledzenie twojej aktywności online, pokazywaniu lepiej dopasowanych reklam. 
+Juz wiesz, że pliki cookies to małe fragmenty danych, które strony internetowe zapisują na twoim komputerze. Służą one do różnych celów, takich jak zapamiętywanie twoich preferencji czy śledzenie twojej aktywności online, pokazywaniu lepiej dopasowanych reklam itp.
 
 Przyjrzyjmy się jednak dokładniej z czego skłda się ciastko!
 
