@@ -1,29 +1,36 @@
 ---
-title: 11. DOM
+title: "- Zadanie 3"
 layout: post
 ---
 
-DOM, czyli **Document Object Model** pozwala językowi JS odzwierciedlić układ strony HTML.
+Poniżej ramki z formularzem znajduje się odnośnik, zróbmy z niego użytek!
 
-W narzędziach developerskich wróćmy do zakładki "Elements". Tam widać całą naszą stronę. Ale jak się odwołać do jakiegoś elementu za pomocą JSa?
+W nowej zakładce powinien się otworzyć dokument `webstoragemonitor.html`.
 
-Wróćmy do zakładki "Console". Do elementów HTML możemy się dowoływać poprzez ich:
+Umieśćmy oba dokumenty obok siebie, tak aby były jednocześnie widoczne.
 
-- **id** - `getElementById`
+Czas na magię - zmieńmy kolor tła i zapiszmy nową wartość w WebStorage.
 
-- **tag** \(np. div, p, ul\) - `getElementsByTagName`
+### Analiza dokumentu `webstoragemonitor.html`
 
-- **klasę** - `getElementsByClassName`
+Otwórzmy dokument `webstoragemonitor.html` w naszym ulubionym edytorze i zobaczmy, co tam się dzieje.
 
-- **selektor** - `querySelector` i `querySelectorAll` \(pierwsza zwraca pierwszy element z pasujących, druga zwraca wszystkie pasujące elementy\)
+- Czy wszystko jasne? Nie wygląda to aż tak magicznie 😊
+- Spróbujmy zrobić jakiś użytek z tego, co widzimy
 
-Spróbujmy teraz pobrać do zmiennej nagłówek ze strony, z którą pracujesz. Zobacz, że w pliku `index.html` masz tag `<h1>`, a w nim jakąś treść. Pobierz ten element do zmiennej korzystając z metody `querySelector`. Aby ta metoda zadziałała, musisz ją wywołać na dokumencie HTML, czyli `document` , a potem podać wybrany selektor w nawiasie okrągłym. Twój kod powinien wyglądać tak:
+### Zadanie
 
-`let header = document.querySelector("h1");`
+- Sprawmy, aby strona `webstoragemonitor.html` zmieniła kolor tła za każdym razem, gdy zmieniamy go i zapisujemy na stronie `webstorage.html`.
 
-Wypisz teraz tę zmienną w konsoli i sprawdź, czy zapisał się do niej element HTML. Co widzisz?
+- Otwórzmy plik `webstoragemonitor.html` i napiszmy funkcję `setStyle`, która ustawi kolor tła dokumentu za każdym razem, gdy pojawi się zdarzenie związane z Web Storage.
 
-Jak umiemy już pobierać elementy do zmiennych, możemy działać dalej! 
+```javascript
 
-🪄 Pora na trochę magii!
+// Funkcja setStyle, która zmienia kolor tła
+function setStyle(ev) {
+  document.body.style[ev.key] = ev.newValue;
+}
+
+window.addEventListener('storage', setStyle);
+```
 

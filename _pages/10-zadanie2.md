@@ -3,103 +3,56 @@ title: 10. Funkcje
 layout: post
 ---
 
-Czasami chcemy wykonywać podobne rzeczy dla różnych wartości. Np. chcemy pomalować całe mieszkanie i musimy policzyć powierzchnię ścian dla każdego pokoju. Mamy pokoje o różnych wymiarach, ale samo liczenie będzie wyglądać dokładnie tak samo:
+Celem naszego drugiego zadania będzie odczytanie po naciśnięciu przycisku Restore kolorów zapisanych w `localStorage` i `sessionStorage` oraz ustawienie ich jako aktualnych na stronie.
 
-Malujemy pokój o wymiarach 6m x 5m i wysokości 2,5 m.
+**Znowu potrzebny jest plan!**
 
-Sumujemy szerokości ścian: 2\*6 + 2\*5 = 22
+### 👉 Plan działania
+- Odczytaj wartość zapisaną w `localStorage`
+- Ustaw ją jako aktualny kolor tła
+- Odczytaj wartość zapisaną w `sessionStorage`
+- Ustaw ją jako aktualny kolor tekstu
 
-Wyliczamy powierzchnię ścian: 22 × 2,5 = 55
 
-Wyliczamy powierzchnię sufitu: 6 × 5 = 30
+Spróbujmy napisać funkcję `restoreColors`, która realizuje drugie zadanie!  
 
-Dodajemy powierzchnię ścian i sufitu: 55 + 30 = 85
+Czy możemy wykorzystać istniejący już kod? 🤔
 
-I tak dla 7 różnych pomieszczeń w naszym domu. Ale możemy to skrócić. W końcu chodzi o to by zrobić coś takiego:
+#### Gotowe?
 
-```js
-let x = jedna_sciana;
-let y = druga_sciana;
-let z = wysokosc;
-let szerScian = 2*x + 2*y;
-let powScian = szerScian * wysokosc;
-let powSufitu = x * y;
-let powmalowania = powScian + powSufitu;
-```
+Wyszło nam pewnie coś takiego:
+```javascript
+function restoreColors() {
+  const bgColor = localStorage.getItem('backgroundColor');
+  const fgColor = sessionStorage.getItem('color');
 
-Nasze zmienne elementy to x, y i z.
-
-Do wykonywania takich czynności przyda nam się funkcja. Definicja funkcji wygląda następująco:
-
-```js
-function nazwaFunkcji() {
-    co ma się wydarzyć;
-}
-
-np.:
-function powitanie() {
-    console.log('Hello World!');
+  setBackground(bgColor);
+  setForeground(fgColor);
 }
 ```
 
-Teraz funkcję należy wywołać:
+Pozostało nam tylko połączenie funkcji `restoreColors()` ze zdarzeniem kliknięcia na przycisk `Restore`.
 
-```js
-nazwaFunkcji();
-powitanie();
-```
+```javascript
+document
+  .querySelector('#restore')
+  .addEventListener('click', restoreColors);
+  ```
 
-Przy każdym wywołaniu funkcji zadziała ona tak samo.
+### 👉 Testowanie
 
-Ale co z naszymi zmiennymi parametrami? Otóż w nawiasach przy nazwie funkcji określmy właśnie te parametry. Np.
+Sprawdźmy w praktyce jak działa Web Storage
 
-```js
-function powitanie(name) {
-    console.log('Hello ' + name);
-}
-```
+#### Test 1
+1. Ustaw nowe kolory tła i tekstu.
+2. Zapisz je w Web Storage naciskając Save.
+3. Otwórz w nowej zakładce drugą kopię strony `webstorage.html`.
+4. Odtwórz kolory w otwartym przed chwilą dokumencie naciskając Restore.
+5. Co udało się zaobserwować?
 
-Przy wywołaniu w miejscu parametru należy wstawić istniejące dane, np.
-
-```js
-powitanie('Marta');
->>> Hello Marta
-powitanie('Ania');
->>> Hello Ania
-```
-
-Wróćmy do liczenia powierzchni: nasze zmienne parametry to szerokość jednej ściany, drugiej ściany i wysokość, czyli:
-
-```js
-function powierzchniaMalowania(sciana1, sciana2, wysokosc) {
-    ....
-}
-```
-
-Teraz wnętrze naszej funkcji:
-
-```js
-function powierzchniaMalowania(sciana1, sciana2, wysokosc) {
-    var x = sciana1;
-    var y = sciana2;
-    var z = wysokosc;
-    var szerScian = 2*x + 2*y;
-    var powScian = szer_scian * wysokosc;    
-    var powSufitu = x * y;
-    var powMalowania = powScian + powSufitu;
-
-    console.log(powMalowania)
-}
-```
-
-I jej wywołanie:
-
-```js
-powierzchniaMalowania(6, 5, 2.5);
-powierzchniaMalowania(3, 4, 2.5);
-```
-
-### Zadanie:
-
-W swoim pliku JS napisz funkcję o nazwie `helloGirlsJS`, która po wywołaniu wyświetli następujący napis: "Cześć, \[tu poda imię osoby podanej w wywołaniu\]! Witaj na girls.js!".
-
+#### Test 2
+1. Ustaw nowe kolory tła i tekstu w drugiej zakładce.
+2. Zapisz je w Web Storage naciskając Save.
+3. Otwórz pierwszą zakładkę ze stroną `webstorage.html`.
+4. Naciśnij przycisk Restore.
+5. Co udało się zaobserwować?
