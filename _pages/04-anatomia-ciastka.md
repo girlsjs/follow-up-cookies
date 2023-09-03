@@ -23,3 +23,22 @@ Przyjrzyjmy się jednak dokładniej z czego skłda się ciastko!
 
 
 Spośród tych atrybutów tym razem najbardziej interesuje nas nie liczba kalorii, ale data ważności 😜
+
+## Jak można zapisać dane w przeglądarce?
+
+### Metody przechowywania danych
+
+1. **HTTP Cookies**: 
+    - Dostępne z poziomu JavaScript.
+    - Mają ograniczoną wielkość.
+    - Są wysyłane z każdym żądaniem HTTP.
+
+2. **Web Storage**: 
+    - Składa się z `sessionStorage` i `localStorage`.
+    - Pozwala na przechowywanie danych tylko po stronie klienta.
+
+3. **IndexedDB**: 
+    - Zaawansowana baza danych w przeglądarce.
+    - Pozwala na przechowywanie większych ilości danych w obiektach.
+
+![](/cookies/assets/gif_cookies.gif)
