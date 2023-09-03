@@ -28,21 +28,20 @@ Pomyślmy nad scenariuszem, który powinien być realizowany podczas ładowania 
 Napiszmy funkcję `isCookieSet()`, która przyjmie nazwę ciasteczka jako jedyny parametr i zwróci wartość logiczną `true` / `false` mówiącą o tym, czy ciasteczko o podanej nazwie jest ustawione.
 
 <details>
-  <summary>Rozwiązanie</summary>
-  
- ```javascript
+  <summary>💡 Kliknij tutaj, aby zobaczyć rozwiązanie</summary>
 
-function isCookieSet(name) {
-  const cookies = document.cookie.split('; ');
-  for (let i = 0; i < cookies.length; i += 1) {
-    if (cookies[i].startsWith(name + '=')) {
-      return true;
+  **Rozwiązanie: **
+  ```js
+  function isCookieSet(name) {
+    const cookies = document.cookie.split('; ');
+    for (let i = 0; i < cookies.length; i += 1) {
+      if (cookies[i].startsWith(name + '=')) {
+        return true;
+      }
     }
+    return false;
   }
-  return false;
-}
-```
-
+  ```
 </details>
 
 #### 👉 Krok 2. Pokaż notyfikację o ciasteczkach
