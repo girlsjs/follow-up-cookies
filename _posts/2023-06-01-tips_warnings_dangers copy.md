@@ -6,7 +6,10 @@ category: content
 layout: post
 ---
 
-Nie zapomnij dołączyć do nas na facebooku [girls.js](https://www.facebook.com/girlsjs/), aby nie przegapić kolejnych wydarzeń
+Nie zapomnij zafollować nas, aby nie przegapić kolejnych wydarzeń
+
+🟡 facebooku [girls.js fb](https://www.facebook.com/girlsjs/)
+🟡 instagram [girls.js insta](https://www.instagram.com/girls_js_/)
 
 > ##### Dołącz
 >

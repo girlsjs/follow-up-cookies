@@ -8,7 +8,7 @@ permalink: /
 
 Witajcie girls.js! 
 
-Czy jesteście po naszych warsztatach, czy po prostu chcecie rozwinąć swoje umiejętności JS-owe. Witamy!
+Czy jesteście po naszych warsztatach, czy po prostu chcecie rozwinąć swoje umiejętności JS-owe - cieszymy się, że was gościmy!
 
 Dzisiaj przyjrzymy się cookies i innym mechanizmom przechowywania danych w przeglądarce.
 
