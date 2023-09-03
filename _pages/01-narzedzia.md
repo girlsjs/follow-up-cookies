@@ -23,5 +23,6 @@ Czyli narzędzie, w którym będziemy pisać kod. Możesz użyć nawet aplikacji
 **Dodatkowo**
 Rozszerzenie (wtyczka do VisualStudioCode)
 Live Server Extension - [link](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-VSC -> Extensions -> Live Server (Ritwick Dey)
+
+* VSC -> `Extensions` -> `Live Server (Ritwick Dey)`
 
