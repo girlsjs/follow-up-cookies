@@ -48,7 +48,7 @@ Napiszmy funkcję `isCookieSet()`, która przyjmie nazwę ciasteczka jako jedyny
 
 Skorzystamy tu z `element.classList` i `classList.remove()`
 
-Napiszmy funkcję `showCookieNotice`, która pokaże element `aside`
+Napiszmy funkcję `showCookieNotice()`, która pokaże element `aside`
 oraz połączmy jej działanie z funkcją z kroku pierwszego.
 
 ```javascript
@@ -66,7 +66,7 @@ if ( !isCookieSet('accept-cookies') ) {
 
 Ten krok podzielimy na dwie niezależne części.
 
-* Po pierwsze potrzebujemy funkcji `hideCookieNotice` (ukryj) działającej odwrotnie do funkcji z kroku drugiego. Skorzystamy tu z metody `classList.add()`.
+* Po pierwsze potrzebujemy funkcji `hideCookieNotice()` (ukryj) działającej odwrotnie do funkcji z kroku drugiego. Skorzystamy tu z metody `classList.add()`.
 
 ```javascript
 function hideCookieNotice() {
@@ -76,7 +76,7 @@ function hideCookieNotice() {
 
 * Po drugie potrzebujemy fukncji, która zapisze ciasteczko w przeglądarce.
 
-Nasza funkcja `setCookie `powinna przyjmować nazwę ciasteczka, jego wartość i opcjonalnie czas przydatności do "spożycia" ;)
+Nasza funkcja `setCookie()` powinna przyjmować nazwę ciasteczka, jego wartość i opcjonalnie czas przydatności do "spożycia" ;)
 
 Oto jedno z możliwych rozwiązań:
 

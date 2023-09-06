@@ -3,7 +3,7 @@ title: "> SessionStorage"
 layout: post
 ---
 
-## 👉 Jak działa Session Storage?
+## Jak działa Session Storage?
 
 `sessionStorage` to inny mechanizm dostępny w przeglądarkach internetowych, który różni się od `localStorage` tym, że przechowuje dane tylko na czas jednej sesji przeglądarki.
 
