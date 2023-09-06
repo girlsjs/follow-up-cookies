@@ -9,14 +9,16 @@ layout: post
 
 * Używane są do przechowywania informacji o sesjach użytkownika, ustawieniach preferencji, a także śledzenia zachowania użytkownika na stronach internetowych.
 
+>
 > 🤔 🤔 🤔
 >
 > Po co ktoś miał by zapisywać dane w mojej przeglądarce?
 > Nie stać ich na twarde dyski?
-{: .block-warning }
+>
+>  
 
 
-Gdzie spotkamy cookies
+Gdzie spotkamy cookies?
 
 * statystyki odwiedzin
 * zakupy internetowe bez zakładania konta

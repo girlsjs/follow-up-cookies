@@ -1,5 +1,5 @@
 ---
-title: "> Zadanie 1"
+title: "Zadanie 1"
 layout: post
 ---
 
@@ -13,12 +13,12 @@ Nas w tej chwili interesuje `webstorage.html`.
 1. otwórz Visual Studio Code
 2. otwórz folder z pobranym kodem źródłowym
 3. upewnij się, że masz dodaną i aktywowaną wtyczkę do VSC - Live Server
-4. wejdź w plik `webstorage.html`` > klinij prawym przyciskiem myszki i wybierz "Otwórz za pomocą Live Server"
+4. wejdź w plik `webstorage.html` > klinij prawym przyciskiem myszki i wybierz "Otwórz za pomocą Live Server"
 
 ### 👉 Na razie bez zaglądania do kodu
 - Otwarta strona `webstorage.html` zawiera prosty formularz, za pomocą którego możemy zmieniać kolor tła i tekstu. Sprawdźmy przez chwilę, jak to działa. 
 
-- Są tu również dwa przyciski, które nic nie robią (na razie). Otwórzmy plik `webstorage.html`` w swoim ulubionym edytorze i popatrzmy przez chwilę na kod.
+- Są tu również dwa przyciski, które nic nie robią (na razie). Otwórzmy plik `webstorage.html` w swoim ulubionym edytorze i popatrzmy przez chwilę na kod.
 
 ### 👉 Pierwsze zadanie
 Celem naszego pierwszego zadania będzie zapisanie po naciśnięciu przycisku Save aktualnie ustawionych kolorów w localStorage i sessionStorage
@@ -34,7 +34,7 @@ Celem naszego pierwszego zadania będzie zapisanie po naciśnięciu przycisku Sa
 
 To nie było trudne, tylko skąd wziąć aktualne wartości kolorów?  
 
-Spróbujmy napisać funkcję w js `saveColor()s`, która realizuje pierwsze zadanie!
+Spróbujmy napisać funkcję w js `saveColors()`, która realizuje pierwsze zadanie!
  
 Czy możemy wykorzystać istniejący już kod? 🤔
 
