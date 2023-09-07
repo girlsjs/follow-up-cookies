@@ -5,6 +5,8 @@ layout: post
 
 Pobierz paczkę z kodem źródłowym: [LINK - cookies.zip](https://girlsjs.github.io/kurs/follow-ups/cookies/cookies.zip)
 
+*W razie problemów z pobieraniem [https://github.com/girlsjs/cookies/blob/main/download/cookies.zip](https://github.com/girlsjs/cookies/blob/main/download/cookies.zip) kliknij "View as raw"*
+
 Po wypakowaniu znajdziesz w głównym folderze kilka plików.
 Nas w tej chwili interesuje `webstorage.html`.
 
