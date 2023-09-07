@@ -10,11 +10,11 @@ Witajcie girls.js!
 
 Czy jesteście po naszych warsztatach, czy po prostu chcecie rozwinąć swoje umiejętności JS-owe - cieszymy się, że was gościmy!
 
-Dzisiaj przyjrzymy się cookies i innym mechanizmom przechowywania danych w przeglądarce.
+Dzisiaj przyjrzymy się **cookies i innym mechanizmom przechowywania danych w przeglądarce**.
 
 Poznamy, jak działają ciasteczka w przeglądarce, a także zapoznamy się z podstawowymi mechanizmami zarządzania danymi takimi jak: HTTP Cookies oraz Web Storage.
 
-Dowiemy się również, jak wygląda anatomia cookiesów oraz jakie istnieją aspekty prawne związane z ich używaniem.
+Dowiemy się również, jak wygląda anatomia ciastek oraz jakie istnieją aspekty prawne związane z ich używaniem.
 
 ### AGENDA
 

@@ -167,7 +167,15 @@
     overflow-x: scroll;
 }
 
+.markdown-section code {
+    color: darkorange;
+    background: #eeeeee;
+}
+
 /* Tips, warnings, and dangers */
+.markdown-section blockquote {
+    padding: 1px 15px;
+}
 
 .markdown-section blockquote.block-tip {
     border-color: var(--c-tip);

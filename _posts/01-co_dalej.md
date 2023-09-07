@@ -8,11 +8,13 @@ layout: post
 
 Nie zapomnij zafollować nas, aby nie przegapić kolejnych wydarzeń
 
+
 🟡 facebooku [girls.js fb](https://www.facebook.com/girlsjs/)
+
 🟡 instagram [girls.js insta](https://www.instagram.com/girls_js_/)
 
 > ##### Dołącz
 >
-> Szukamy wolontariuszek i wolotariuszy do organizacji kolejnych edycji girls.js
+> Szukamy wolontariuszek i wolotariuszy, organizatorów kolejnych edycji girls.js
 > Dołącz do nas!
 {: .block-danger }
