@@ -31,6 +31,7 @@ Napiszmy funkcję `isCookieSet()`, która przyjmie nazwę ciasteczka jako jedyny
   <summary>💡 Kliknij tutaj, aby zobaczyć rozwiązanie</summary>
 
   **Rozwiązanie: **
+
   ```js
   function isCookieSet(name) {
     const cookies = document.cookie.split('; ');

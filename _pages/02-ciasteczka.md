@@ -30,7 +30,7 @@ layout: post
 
 Przykład:
 
-Strona helion.pl podsiada cookie `HelionGo`, który sprawdza czy dana osoba przyszła z polecenia innej osoby (program partnerski).
+Strona helion.pl posiada cookie `HelionGo`, który sprawdza czy dana osoba przyszła z polecenia innej osoby (program partnerski).
 
 Wchodząc bezpośrednio na helion.pl, nie mamy ciasteczka:
 
