@@ -91,7 +91,7 @@ function setCookie(name, value, time) {
 }
 ```
 
-### 👉 Pozostaje nam tylko połączenie wszystkich elementów
+#### 👉 Pozostaje nam tylko połączenie wszystkich elementów
 
 ```javascript
 function acceptCookies() {

@@ -1,5 +1,5 @@
 ---
-title: "> Zadanie 3"
+title: "Zadanie 3"
 layout: post
 ---
 
@@ -11,18 +11,18 @@ Umieśćmy oba dokumenty obok siebie, tak aby były jednocześnie widoczne.
 
 Czas na magię - zmieńmy kolor tła i zapiszmy nową wartość w WebStorage.
 
-### Analiza dokumentu `webstoragemonitor.html`
+### 👉 Analiza dokumentu `webstoragemonitor.html`
 
 Otwórzmy dokument `webstoragemonitor.html` w naszym ulubionym edytorze i zobaczmy, co tam się dzieje.
 
 - Czy wszystko jasne? Nie wygląda to aż tak magicznie 😊
 - Spróbujmy zrobić jakiś użytek z tego, co widzimy
 
-### Zadanie
+### 👉 Zadanie
 
 - Sprawmy, aby strona `webstoragemonitor.html` zmieniła kolor tła za każdym razem, gdy zmieniamy go i zapisujemy na stronie `webstorage.html`.
 
-- Otwórzmy plik `webstoragemonitor.html` i napiszmy funkcję `setStyle`, która ustawi kolor tła dokumentu za każdym razem, gdy pojawi się zdarzenie związane z Web Storage.
+- Otwórzmy plik `webstoragemonitor.html` i napiszmy funkcję `setStyle()`, która ustawi kolor tła dokumentu za każdym razem, gdy pojawi się zdarzenie związane z Web Storage.
 
 ```javascript
 
