@@ -4,7 +4,7 @@ layout: post
 ---
 
 
-## Jak działa localStorage?
+Jak działa localStorage?
 
 `localStorage` to mechanizm dostępny w przeglądarkach internetowych umożliwiający przechowywanie danych na stałe na poziomie przeglądarki. Pozwala to na zapisanie informacji, takich jak ciasteczka, na komputerze użytkownika nawet po zamknięciu przeglądarki. 
 
