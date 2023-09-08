@@ -27,9 +27,6 @@ Pomyślmy nad scenariuszem, który powinien być realizowany podczas ładowania 
 
 Napiszmy funkcję `isCookieSet()`, która przyjmie nazwę ciasteczka jako jedyny parametr i zwróci wartość logiczną `true` / `false` mówiącą o tym, czy ciasteczko o podanej nazwie jest ustawione.
 
-<details>
-  <summary>💡 Kliknij tutaj, aby zobaczyć rozwiązanie</summary>
-
   **Rozwiązanie: **
   ```js
   function isCookieSet(name) {
@@ -42,7 +39,7 @@ Napiszmy funkcję `isCookieSet()`, która przyjmie nazwę ciasteczka jako jedyny
     return false;
   }
   ```
-</details>
+
 
 #### 👉 Krok 2. Pokaż notyfikację o ciasteczkach
 

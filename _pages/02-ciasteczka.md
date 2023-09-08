@@ -28,7 +28,8 @@ layout: post
 * przyspieszenie uruchamiania aplikacji / strony
 * śledzenie naszych zachowań w sieci / profilowanie treści
 
-Przykład:
+
+Przykład z życia:
 
 Strona helion.pl podsiada cookie `HelionGo`, który sprawdza czy dana osoba przyszła z polecenia innej osoby (program partnerski).
 
