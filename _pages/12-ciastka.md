@@ -28,6 +28,7 @@ Pomyślmy nad scenariuszem, który powinien być realizowany podczas ładowania 
 Napiszmy funkcję `isCookieSet()`, która przyjmie nazwę ciasteczka jako jedyny parametr i zwróci wartość logiczną `true` / `false` mówiącą o tym, czy ciasteczko o podanej nazwie jest ustawione.
 
   **Rozwiązanie: **
+
   ```js
   function isCookieSet(name) {
     const cookies = document.cookie.split('; ');
